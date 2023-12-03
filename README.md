@@ -36,5 +36,6 @@ Join us in developing Suzy, and let's create an AI companion that's not just sma
 - **@Calendar**: Manage and access calendar events, set reminders, and schedule appointments.
 - **@Translate**: Translate text between different languages.
 - **@InformationDatabaseSearch**: Search and retrieve information from specific databases.
+- **@UserMemory**: Retrieve requested saved conversations from relevant current human.
 - **@InternetSearch**: Perform general internet searches to find information.
 - **@SmartHome**: Control and manage smart home devices.
