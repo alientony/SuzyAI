@@ -29,7 +29,7 @@ Join us in developing Suzy, and let's create an AI companion that's not just sma
 
 
 
-## Planned commands to be baked in:
+## Planned Commands:
 
 - **@Weather**: Fetch and provide current weather conditions and forecasts.
 - **@Math**: Perform mathematical calculations and solve mathematical queries.
