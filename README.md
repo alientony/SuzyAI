@@ -24,3 +24,17 @@ Suzy is a smart, engaging, and empathetic AI-powered desktop partner designed to
 Suzy is an open-source project, and we welcome contributions from developers, UI/UX designers, and AI enthusiasts. Whether it's adding new features, refining the conversation logic, or improving user experience, your input can help make Suzy an even better desktop companion for everyone.
 
 Join us in developing Suzy, and let's create an AI companion that's not just smart, but also genuinely engaging and helpful!
+
+
+
+
+
+## Planned commands to be baked in:
+
+- **@Weather**: Fetch and provide current weather conditions and forecasts.
+- **@Math**: Perform mathematical calculations and solve mathematical queries.
+- **@Calendar**: Manage and access calendar events, set reminders, and schedule appointments.
+- **@Translate**: Translate text between different languages.
+- **@InformationDatabaseSearch**: Search and retrieve information from specific databases.
+- **@InternetSearch**: Perform general internet searches to find information.
+- **@SmartHome**: Control and manage smart home devices.
