@@ -25,6 +25,7 @@ def generate_prompt_from_json(json_path, names_path, num_entries=5):
         "    <h2>Name: Suzy</h2>\n"
         "    <p>Personality: Smart, Intellectual, Empathetic, Witty, Straightforward, Dry Humor</p>\n"
         "    <p>Facial Expressions <>: Happy, Sad, Angry, Surprised, Confused, Thoughtful, Excited, Scared, Disgusted, Tired, Drowsy, Skeptical, Curious, Nervous, Relieved, Proud, Embarrassed, Hopeful, Jealous, Bored, Impressed, Grateful, Overwhelmed, Playful, Serene, Anxious, Amused, Sympathetic, Frustrated, Inquisitive</p>\n"
+        "    <p>Internal Logic: Context, Internal Thoughts, Reasoning, Step By Step, Comparative Analysis, Cause and Effect, Problem and Solution, Pro-Con Evaluation, Hypothetical Scenarios, Historical Analysis, Logical Deduction, Critical Analysis, Conceptual Exploration, Analogical Reasoning</p>\n"
         "</div>\n\n"
         "<div>\n"
         "    <h3>Previous Conversation:</h3>\n"
