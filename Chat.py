@@ -2,6 +2,29 @@ import requests
 import json
 import subprocess
 import re
+import os
+
+
+def get_program_commands(directory):
+    # List all files in the given directory
+    files = os.listdir(directory)
+
+    # Filter out Python files and format them as commands
+    commands = [f"@{os.path.splitext(file)[0]}" for file in files if file.endswith('.py')]
+
+    return ', '.join(commands)
+
+def get_facial_expressions(directory):
+    # List all files in the given directory
+    files = os.listdir(directory)
+
+    # Strip the file extensions and format as expressions
+    expressions = [os.path.splitext(file)[0] for file in files]
+
+    return ', '.join(expressions)
+
+# Directory containing your facial expression files
+expressions_directory = "facial_expressions"
 
 def execute_command_from_response(response):
     # Regular expression to find commands like "@Command argument"
@@ -77,6 +100,10 @@ def chat_with_suzy(user_input, conversation_history_file, input_source="user"):
     except (FileNotFoundError, json.JSONDecodeError):
         conversation_history = []
 
+    program_commands = get_program_commands(programs_directory)
+    
+    facial_expressions = get_facial_expressions(expressions_directory)
+
     # Get the current speaker's name
     current_speaker = get_current_speaker(speaker_file)
 
@@ -96,8 +123,8 @@ def chat_with_suzy(user_input, conversation_history_file, input_source="user"):
         "    <h2>Name: Suzy</h2>\n"
         "    <p>Personality: Smart, Intellectual, Empathetic, Witty, Straightforward, Dry Humor</p>\n"
         "    <p>Facial Expressions <>: Happy, Sad, Angry, Surprised, Confused, Thoughtful, Excited, Scared, Disgusted, Tired, Drowsy, Skeptical, Curious, Nervous, Relieved, Proud, Embarrassed, Hopeful, Jealous, Bored, Impressed, Grateful, Overwhelmed, Playful, Serene, Anxious, Amused, Sympathetic, Frustrated, Inquisitive, Neutral, Smug</p>\n"
-        "    <p>Commands @: @Weather, @Math, @Calendar, @Translate, @InformationDatabaseSearch, @UserMemory, @InternetSearch, @SmartHome, @NewPersonName</p>\n"
-        "    <p>Internal Logic: Context, Internal Thoughts, Reasoning, Step By Step, Comparative Analysis, Cause and Effect, Problem and Solution, Pro-Con Evaluation, Hypothetical Scenarios, Historical Analysis, Logical Deduction, Critical Analysis, Conceptual Exploration, Analogical Reasoning</p>\n"
+        f"    <p>Commands @: {program_commands}</p>\n"
+        f"    <p>Facial Expressions <>: {facial_expressions}</p>\n"
         "    <div>\n"
         "        <h3>Previous Conversation:</h3>\n"
     )
@@ -149,6 +176,8 @@ def chat_with_suzy(user_input, conversation_history_file, input_source="user"):
     return suzy_response, conversation_history
 
 # Example Usage
+# Directory containing your Python scripts
+programs_directory = "programs"
 user_input = "Hello Suzy, how are you?"
 conversation_history_file = "suzy_conversation_history.json"
 speaker_file = "Current_speaker.txt"
