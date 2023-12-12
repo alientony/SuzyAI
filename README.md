@@ -69,3 +69,51 @@ By utilizing different models that have trained on your datasets one can have Su
 ![Automation](https://github.com/alientony/SuzyAI/assets/11477330/93707912-17ca-41aa-8462-2eca5441f931)
 
 The point of this project is to let Suzy arize from your models not cram her in or libotomize them till they act like them. We need only to nudge them.
+
+
+## How the code works
+
+Instructions for Using the Provided Python Code to Generate Training Data for AI Model Refinement
+
+Purpose:
+This code is designed to generate training data for an AI model by creating a structured HTML prompt (html_prompt) and a JSON-formatted continuation of the conversation (json_continuation). The code utilizes a JSON file with conversation data and a text file with a list of names.
+
+Prerequisites:
+Python installed on your system.
+A JSON file (json_path) containing conversation data in a list format, with each item being a dictionary (keys can include "Person", "Program", "Response").
+A text file (names_path) with names listed, one per line.
+
+Steps:
+
+Data File Preparation:
+
+JSON file with conversation data.
+Text file with names, each on a new line.
+
+Code Importation:
+Copy the Python code into a script or Jupyter notebook.
+
+Function Usage:
+Call generate_prompt_from_json with the paths to your data files.
+
+Arguments:
+json_path: Path to your JSON conversation data file.
+names_path: Path to your text file with names.
+num_entries: Number of conversation entries to include (default is 5).
+Example:
+html_prompt, json_continuation = generate_prompt_from_json('path/to/conversation.json', 'path/to/names.txt')
+
+Output Examination:
+
+html_prompt: HTML-formatted string with a conversation snippet.
+json_continuation: JSON object with the continuation of the conversation.
+Training Data Usage:
+
+Use html_prompt as the input for your model.
+Use json_continuation for token generation in your model refining script.
+This process helps in refining the AI model's understanding of conversation flow, logic, and emotions.
+Notes:
+The script selects two random names for the conversation.
+It picks a random starting point in the JSON data for variability.
+The conversation is formatted to mimic real interactions, enhancing the AI's response capabilities.
+You can tailor the code to suit specific training needs.
