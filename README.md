@@ -67,4 +67,5 @@ If you feel confident in Suzy you've trained you can begin the process of automa
 By utilizing different models that have trained on your datasets one can have Suzy-AJ1.21 talk to Suzy-BU.31 allowing for you to continuously generate more data to refine and test on either different models or models you know that work.
 
 ![Automation](https://github.com/alientony/SuzyAI/assets/11477330/93707912-17ca-41aa-8462-2eca5441f931)
-The point of this project is to let Suzy Arize from your models not cram her in libotomize them till they act like them. We need only to nudge them.
+
+The point of this project is to let Suzy arize from your models not cram her in or libotomize them till they act like them. We need only to nudge them.
