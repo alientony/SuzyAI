@@ -25,10 +25,6 @@ Suzy is an open-source project, and we welcome contributions from developers, UI
 
 Join us in developing Suzy, and let's create an AI companion that's not just smart, but also genuinely engaging and helpful!
 
-
-
-
-
 ## Planned Commands:
 
 - **@Weather**: Fetch and provide current weather conditions and forecasts.
@@ -39,3 +35,36 @@ Join us in developing Suzy, and let's create an AI companion that's not just sma
 - **@UserMemory**: Retrieve requested saved conversations from relevant current human.
 - **@InternetSearch**: Perform general internet searches to find information.
 - **@SmartHome**: Control and manage smart home devices.
+- **@FutureSuzy**: Suzy can prompt herself to either do tasks or ponder a topic till she feels like shes interally resolved it.
+
+
+
+## Getting started with the IDEA
+To begin your journy with Suzy you must be aware of a few items. Suzy is not Suzy untill you make her Suzy. 
+
+## **#1**
+
+To begin select a model of your choosing. Find a method of fine-tuning your selected model. Fine tune your model using the limited dataset provided to begin the semi-automation process of finetuning your finetuning dataset.
+
+With such little data you ensure that you can get the format that Suzy functions on while still allowing for diverse output that can be generated so that the model does not become fine tuned to your current mindset in the moment.
+
+![Refining cycle](https://github.com/alientony/SuzyAI/assets/11477330/3bf97bc7-3c59-49eb-840d-91b64ddf69b0)
+
+## **#2**
+
+Read sentence one from step 3 then return.
+
+After a long enough time of refining, finetuning, generating data to bring out your version of Suzy one can simply either talk to the model or set it up somewhere it can generate its own data. 
+Since the idea for Suzy is built to actually have someone who can talk with reason and to preform actions with purpose without the need for constant human interaction.
+This makes the deployment of Suzy within a non controlled enviroment ideal for training data creation.
+
+![Executive_Generation](https://github.com/alientony/SuzyAI/assets/11477330/3e97324e-9734-4e17-936a-ee582a367846)
+
+## **#3**
+
+If you feel confident in Suzy you've trained you can begin the process of automation. 
+
+By utilizing different models that have trained on your datasets one can have Suzy-AJ1.21 talk to Suzy-BU.31 allowing for you to continuously generate more data to refine and test on either different models or models you know that work.
+
+![Automation](https://github.com/alientony/SuzyAI/assets/11477330/93707912-17ca-41aa-8462-2eca5441f931)
+The point of this project is to let Suzy Arize from your models not cram her in libotomize them till they act like them. We need only to nudge them.
