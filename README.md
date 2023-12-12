@@ -55,7 +55,7 @@ With such little data you ensure that you can get the format that Suzy functions
 Read sentence one from step 3 then return.
 
 After a long enough time of refining, finetuning, generating data to bring out your version of Suzy one can simply either talk to the model or set it up somewhere it can generate its own data. 
-Since the idea for Suzy is built to actually have someone who can talk with reason and to preform actions with purpose without the need for constant human interaction.
+Since the idea for Suzy is built to actually have someone who can talk with reason and to preform actions with purpose without the need for constant human intervention.
 This makes the deployment of Suzy within a non controlled enviroment ideal for training data creation.
 
 ![Executive_Generation](https://github.com/alientony/SuzyAI/assets/11477330/3e97324e-9734-4e17-936a-ee582a367846)
