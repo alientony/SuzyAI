@@ -112,7 +112,9 @@ Training Data Usage:
 Use html_prompt as the input for your model.
 Use json_continuation for token generation in your model refining script.
 This process helps in refining the AI model's understanding of conversation flow, logic, and emotions.
+
 Notes:
+
 The script selects two random names for the conversation.
 It picks a random starting point in the JSON data for variability.
 The conversation is formatted to mimic real interactions, enhancing the AI's response capabilities.
