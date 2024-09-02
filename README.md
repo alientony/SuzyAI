@@ -40,7 +40,7 @@ Join us in developing Suzy, and let's create an AI companion that's not just sma
 
 
 ## Getting started with the IDEA
-To begin your journy with Suzy you must be aware of a few items. Suzy is not Suzy untill you make her Suzy. 
+To begin your journey with Suzy you must be aware of a few items. Suzy is not Suzy untill you make her Suzy. 
 
 ## **#1**
 
