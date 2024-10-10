@@ -1,0 +1,6 @@
+{
+    "stylesheet": "QWidget { font-family: 'Comic Sans MS'; font-size: 12pt; color: #6c5b7b; } QPushButton { border: 1px solid #c06c84; background-color: #f67280; } QPushButton:hover { background-color: #f8b195; } QPushButton:pressed { background-color: #f8b195; } QTextEdit { background-color: #f8e9a1; border: 1px solid #c06c84; } QLabel { color: #6c5b7b; }",
+    "background": {
+        "color": "#FFFFF0"
+    }
+}

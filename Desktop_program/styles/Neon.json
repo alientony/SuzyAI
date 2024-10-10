@@ -1,0 +1,7 @@
+{
+    "stylesheet": "QWidget { font-family: 'Arial Black'; font-size: 12pt; color: #39ff14; } QPushButton { border: 2px solid #fe019a; background-color: #ff218e; } QPushButton:hover { background-color: #fc5a8d; } QPushButton:pressed { background-color: #fb7e89; } QTextEdit { background-color: #000000; color: #39ff14; border: 2px solid #fe019a; } QLabel { color: #39ff14; }QTextBrowser, QTextEdit {border-radius: 10px;}",
+    "background": {
+        "image": "./Styles/Backgrounds/neon1.png",
+		"mode": ""		
+    }
+}

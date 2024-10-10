@@ -1,0 +1,7 @@
+{
+    "stylesheet": "QWidget { font-family: 'Courier New'; font-size: 12pt; color: #000000; } QPushButton { border: 2px outset #f08080; background-color: #f4cccc; } QPushButton:hover { background-color: #ea9999; } QPushButton:pressed { background-color: #e06666; } QTextEdit { background-color: rgba(253, 253, 150, 190); border: 2px solid #f08080; } QLabel { color: #000000; } QTextBrowser, QTextEdit {border-radius: 10px;}",
+    "background": {
+        "image": "./styles/backgrounds/retro.gif",
+		"mode": ""
+    }
+}

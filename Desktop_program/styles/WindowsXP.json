@@ -1,0 +1,7 @@
+{
+    "stylesheet": "QWidget { font-family: 'Tahoma'; font-size: 11pt; } QLabel, QTextEdit, QPushButton { border: 2px solid #0A246A; background-color: #C3D9FF; } QPushButton { border-radius: 5px; padding: 5px; } QPushButton:hover { background-color: #B0C4DE; } QPushButton:pressed { background-color: #A9A9A9; } QTextEdit { background-color: #FFFFFF; }",
+	    "background": {
+        "image": "./Styles/Backgrounds/windowsxp.png",
+		"mode": ""
+    }
+}

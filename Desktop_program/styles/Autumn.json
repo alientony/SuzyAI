@@ -1,0 +1,7 @@
+{
+    "stylesheet": "QWidget { font-family: 'Verdana'; font-size: 11pt; color: #784212; } QPushButton { border: 1px solid #d35400; background-color: #edbb99; } QPushButton:hover { background-color: #e59866; } QPushButton:pressed { background-color: #dc7633; } QTextEdit { background-color: #fad7a0; border: 1px solid #d35400; } QLabel { color: #784212; }",
+	    "background": {
+        "image": "./Styles/Backgrounds/Autumn.webp",
+		"mode": ""
+    }
+}
