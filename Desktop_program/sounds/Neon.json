@@ -1,0 +1,7 @@
+{
+  "Send_Message": "./Sounds/Neon/UpdateFlashlightB.wav",
+  "Receive_Message": "./Sounds/Neon/UpdateFlashlightA.wav",
+  "Program_Message": "./Sounds/Neon/UpdateFlashlightC.wav",
+  "Settings_Click": "sounds/dark_theme/settings_click.wav",
+  "Ambient_Music": "sounds/dark_theme/ambient_music.mp3"
+}
