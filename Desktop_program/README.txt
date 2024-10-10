@@ -3,4 +3,6 @@ It is also nessecary that you supply the system with a copy of the openai whispe
 
 It does not need these models specifically you can supply it with the lower end model but it works best with these models.
 
-medium.en.pt & tiny.en.pt
+medium.en.pt & tiny.en.pt 
+
+You need at least 2 models with these names.
